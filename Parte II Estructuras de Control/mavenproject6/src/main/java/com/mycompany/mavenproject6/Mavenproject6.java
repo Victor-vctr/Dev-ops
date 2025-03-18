@@ -1,16 +1,14 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.mavenproject6;
 
-/**
- *
- * @author dev-ops
- */
+/*6-Bucle While: Utiliza un bucle while para contar de 10 a 1 y mostrar cada 
+número.*/
 public class Mavenproject6 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int i = 10;
+        while (i >= 1) {
+            System.out.println(i);
+            i--;
+        }
     }
 }
