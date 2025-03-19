@@ -1,16 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.mavenproject10;
 
-/**
- *
- * @author dev-ops
- */
+/*10-Implementación de Interfaces: Crea una interfaz Volador con un método volar() 
+y una clase Ave que la implemente.*/
 public class Mavenproject10 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Ave aguila = new Ave("Águila");
+        aguila.volar(); // Llamada al método volar() de la interfaz
     }
 }
